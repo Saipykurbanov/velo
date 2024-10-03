@@ -10114,12 +10114,26 @@ opacity: 0.3;
 
 /* ----------------Changes3--------------- */
 .filter__columns {
-  height: 100%;
-  max-height: 110px;
   overflow: hidden;
   transition: 0.5s;
+  .filter__check {
+    display: list-item;
+    overflow: hidden;
+  }
+  .filter__check:nth-child(n+5) {
+    transition: height 0.3s ease 0.3s, margin-bottom 0.3s ease 0.3s, opacity 0.3s ease 0s;
+    height: 0px;
+    opacity: 0;
+    margin-bottom: 0px;
+  }
+
   &.open {
+    .filter__check:nth-child(n+5) {
+      transition: height 0.3s ease 0s, margin-bottom 0.3s ease 0s, opacity 0.3s ease 0.3s;
+      height: 15px;
+      opacity: 1;
+      margin-bottom: 12px;
+    }
     transition: 1s;
-    max-height: 1000px;
   }
 }
