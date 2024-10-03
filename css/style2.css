@@ -10113,6 +10113,7 @@ opacity: 0.3;
 }
 
 /* ----------------Changes3--------------- */
+/* Добавлен полностью новый блок со стилями + удалить стили в разметке в файле catalog.html */
 .filter__columns {
   overflow: hidden;
   transition: 0.5s;
