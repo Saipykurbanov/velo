@@ -10150,7 +10150,7 @@ opacity: 0.3;
   }
 
   /* ----------------Changes5--------------- */
-  /* удалить стили в разметке в файле catalog.html */
+  /* удалить стили в разметке в файле catalog.html!!! */
   &.open {
     .filter__check:nth-child(n+5) {
       transition: margin-bottom 0.3s ease, opacity 0.3s ease 0.3s;
