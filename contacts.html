@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/mmenu-light.css">
   <link rel="stylesheet" href="css/green.css" id="theme-link">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
   <header class="header">
@@ -1286,15 +1286,12 @@
   <script src="js/script.js"></script>
   
   <!-- Sliders -->
+
   <script>
     var mySwiper2 = new Swiper ('.contacts__slider', {
       navigation: {
         nextEl: '.contacts__next',
         prevEl: '.contacts__prev',
-      },
-      pagination: {
-        el: '.contacts__pagination',
-        clickable: true,
       },
       simulateTouch: false,
       preventClicks: false,
@@ -1302,7 +1299,14 @@
       slidesPerView: 1,
       spaceBetween: 0,
       loop: true,
-	  breakpoints: {
+      draggable: true,
+      /* ----------------Changes5--------------- */
+      // Исправляем пагинацию в мобильной версии
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+	    breakpoints: {
         700: {
           slidesPerView: 2,
         },
