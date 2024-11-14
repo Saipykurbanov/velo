@@ -1524,14 +1524,14 @@ h4,
   height: 100%;
 }
 
+/* --------------Changes6------------- */
 .menu__column {
   flex: 1;
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #fff;
   border-left: 3px solid rgba(134, 149, 173, 0.2);
   overflow: auto;
-  /* --------------Changes5------------- */
   scrollbar-width: thin;
   scrollbar-color: var(--season-color) rgba(0, 0, 0, 0.1);
 
@@ -1800,9 +1800,9 @@ h4,
   min-height: 250px;
 }
 
-/*-----------Changes5-------*/
+/*-----------Changes6-------*/
 .menu__field {
-  width: 270px;
+  width: 280px;
   height: 100%;
   padding: 20px 0;
   background-color: #fff;
@@ -2063,11 +2063,11 @@ h4,
   height: 600px;
 }
 
-/*-------------Changes5----------*/
+/*-------------Changes6----------*/
 .catalog__menu__col-1,
 .level-2.active {
   width: 100%;
-  max-width: 270px;
+  max-width: 280px;
 }
 .level-3.active {
   width: 100%;
@@ -2085,20 +2085,13 @@ h4,
     height: calc(100% - 6px);
   }
 }
+
+/*----------Changes6----------*/
 .catalog__menu__col__item.level-2.active {
   display: block;
   font-size: 18px;
-  padding: 10px;
-  /*
-        height: 100vw;
-    display: flex;
-    flex-direction: column;
-
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    */
+  padding: 10px 0;
+  margin-top: 10px;
 }
 .nav__subitem:hover {
   background: none;
@@ -2107,9 +2100,10 @@ h4,
 .catalog__menu__col__item.level-3 {
   display: none;
 }
+/* --------------Changes6-------------- */
 .catalog__menu__col__item.level-2.active {
   display: block;
-  padding-top: 30px;
+  /* padding-top: 30px;  удаляем падинг*/
   border-left: 1px solid rgba(134, 149, 173, 0.2);
 }
 .catalog__menu__col__item.level-3.active {
@@ -10170,10 +10164,8 @@ opacity: 0.3;
   }
 }
 
-/* ----------------Changes5--------------- */
+/* ----------------Changes6--------------- */
 h1, h2, h3, h4, h5, h6 {
   cursor: default;
+  font-style: normal;
 }
-
-/*------------Changes5-----------*/
-/* Добавлен новый скрипт в файле contacts.html для слайдера */
