@@ -2110,7 +2110,7 @@ h4,
 /*-------------Changes7----------*/
 .catalog__menu__col__item.level-2.active {
   display: block;
-  padding-top: 20px;
+  padding-top: 10px;
   border-left: 1px solid rgba(134, 149, 173, 0.2);
 }
 .catalog__menu__col__item.level-3.active {
